@@ -1,10 +1,9 @@
-import CustomButton from 'components/CustomButton';
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import AirpodsConnect from 'components/AirpodsConnect';
+import { SafeAreaView, StyleSheet } from 'react-native';
 
 const App = () => (
   <SafeAreaView style={styles.safeArea}>
-    <Text>Dynamic Island</Text>
-    <CustomButton title="Press me" onPress={() => {}} />
+    <AirpodsConnect />
   </SafeAreaView>
 );
 
@@ -12,7 +11,6 @@ const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
   },
 });
 
